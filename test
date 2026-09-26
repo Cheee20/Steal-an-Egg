@@ -28166,7 +28166,7 @@ do
         Position = UDim2.fromScale(0.5, 0.5),
         Size = UDim2.fromScale(0.86, 0.86),
         BackgroundTransparency = 1,
-        Image = "rbxassetid://128961717706452",
+        Image = "rbxassetid://",
         ImageTransparency = 0.35,
         ScaleType = Enum.ScaleType.Crop,
         ZIndex = 3,
@@ -29642,7 +29642,7 @@ do
 end
 
 do
-    local str5 = "rbxassetid://128961717706452"
+    local str5 = "rbxassetid://"
     local n28 = 56
     local n29 = 0.035
     local n30 = 8
