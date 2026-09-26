@@ -23316,7 +23316,7 @@ do
         if not tbl29.Ready then
             v28:CreateText({
                 Name = "Egg Predictor",
-                Text = "Update the Chilli Library to use the predictor canvas.",
+                Text = "Update the Gibsss Library to use the predictor canvas.",
             })
         else
             v28:CreateDropdown({
@@ -24297,7 +24297,7 @@ do
         if not tbl29.Ready then
             v29:CreateText({
                 Name = "Rift Predictor",
-                Text = "Update the Chilli Library to use the predictor canvas.",
+                Text = "Update the Gibsss Library to use the predictor canvas.",
             })
         else
             do
@@ -25242,7 +25242,7 @@ do
     if not tbl29.Ready then
         v30:CreateText({
             Name = "Fuse Predictor",
-            Text = "Update the Chilli Library to use the predictor canvas.",
+            Text = "Update the Gibsss Library to use the predictor canvas.",
         })
     else
         do
@@ -26395,7 +26395,7 @@ do
             Carry = nil,
             Avatar = nil,
             Disposed = false,
-            Path = "ChilliLibrary/SAE_Webhook.txt",
+            Path = "GibsssLibrary/SAE_Webhook.txt",
             Saved = "",
             LoadedAt = os.clock(),
             Input = nil,
@@ -26765,10 +26765,10 @@ do
                 title = arg,
                 description = table.concat(tbl31, "\n"),
                 color = fn41(v32.Color, string.upper(tostring(v32.Rarity)) == "SECRET"),
-                footer = { text = "Chilli Hub" .. dot .. "Steal An Egg", icon_url = tbl30.Logo },
+                footer = { text = "Gibsss Hub" .. dot .. "Steal An Egg", icon_url = tbl30.Logo },
                 timestamp = DateTime.now():ToIsoDate(),
             }
-            local tbl33 = { username = "Chilli Hub", avatar_url = tbl30.Logo, embeds = { tbl32 } }
+            local tbl33 = { username = "Gibsss Hub", avatar_url = tbl30.Logo, embeds = { tbl32 } }
             local icon = v32.Icon
 
             if arg6 then
@@ -26814,7 +26814,7 @@ do
                         local tbl31 = { Url = tbl30.Url, Method = "POST" }
 
                         if v32.Png then
-                            local str5 = "ChilliHub"
+                            local str5 = "GibsssHub"
                                 .. string.gsub(HttpService:GenerateGUID(false), "-", "")
                             tbl31.Headers =
                                 { ["Content-Type"] = "multipart/form-data; boundary=" .. str5 }
@@ -28184,7 +28184,7 @@ do
             TextSize = 14,
             TextXAlignment = Enum.TextXAlignment.Left,
             TextColor3 = Color3.fromRGB(255, 255, 255),
-            Text = "Chilli Hub",
+            Text = "Gibsss Hub",
             ZIndex = 2,
         }),
         { Color = ColorSequence.new(Color3.fromRGB(255, 120, 100), fromRGB2(255, 190, 110)) }
@@ -29454,7 +29454,7 @@ do
                 Height = 1.6,
                 Scale = 1.45,
                 Wrap = false,
-                Text = "<b>Chilli Hub</b>",
+                Text = "<b>Gibsss Hub</b>",
                 Gradient = v34,
                 GradientRotation = 0,
                 TextStrokeTransparency = 1,
@@ -29926,7 +29926,7 @@ do
                     local flag6 = true
 
                     if type(isfile_) == "function" then
-                        local ok, result = pcall(isfile_, "ChilliLibrary/config_state.json")
+                        local ok, result = pcall(isfile_, "GibsssLibrary/config_state.json")
                         ok = ok and not result
                         flag6 = true
 
@@ -29936,7 +29936,7 @@ do
                     end
 
                     if flag6 then
-                        local json = readfile_("ChilliLibrary/config_state.json")
+                        local json = readfile_("GibsssLibrary/config_state.json")
 
                         if json and json ~= "" then
                             local data = HttpService:JSONDecode(json)
@@ -29959,7 +29959,7 @@ do
                 end)
 
                 pcall(function()
-                    local str9 = "ChilliLibrary/configs/" .. str7 .. ".json"
+                    local str9 = "GibsssLibrary/configs/" .. str7 .. ".json"
                     local flag6 = true
 
                     if type(isfile_) == "function" then
@@ -29981,7 +29981,7 @@ do
                         local flag7 = true
 
                         if type(isfile_) == "function" then
-                            local ok, result = pcall(isfile_, "ChilliLibrary/configs/Default.json")
+                            local ok, result = pcall(isfile_, "GibsssLibrary/configs/Default.json")
                             local flag8 = ok and not result
                             local flag9 = true
 
@@ -29994,7 +29994,7 @@ do
 
                         if flag7 then
                             local ok, result =
-                                pcall(readfile_, "ChilliLibrary/configs/Default.json")
+                                pcall(readfile_, "GibsssLibrary/configs/Default.json")
                             ok = ok and type(result) == "string"
                             ok = ok and result ~= ""
 
