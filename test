@@ -129,7 +129,7 @@ v.ManualQuickDefaults = {
 }
 local genv2 = typeof(getgenv) == "function" and getgenv() or _G
 genv2.ChilliLib = v
-local v2 = v:CreateWindow({ Name = "Chilli Hub - Steal An Egg", DefaultTab = "Farm" })
+local v2 = v:CreateWindow({ Name = "Gibsss Hub - Steal An Egg", DefaultTab = "Farm" })
 local defaultTab = v2:GetDefaultTab()
 genv2.ChilliHub_Window = v2
 genv2.ChilliHub_DefaultTab = defaultTab
@@ -26401,7 +26401,7 @@ do
             Input = nil,
             Dot = "  \194\183  ",
             MaxSide = 200,
-            Logo = "https://media.discordapp.net/attachments/1181785068637790221/1551685385665380432/chilli.png?ex=6ab2df20&is=6ab18da0&hm=5ca4b16854493c689912c068c29354752a0f2ea0490d5b22cbd9acf7d26ed7eb&=&format=webp&quality=lossless",
+            Logo = "",
             Emoji = {
                 Value = "<:sae_value:1551645680718581871>",
                 Size = "<:sae_size:1551645444285800558>",
@@ -29305,9 +29305,9 @@ do
     v31 = v2:CreateTab({ Name = "Discord", Side = "Right", SectionsExpanded = true })
         :CreateSection({ Name = "Community", Expanded = true })
     local str5
-    str5 = "discord.gg/CJK4bs2mgT"
+    str5 = "SOON"
     local str6
-    str6 = "rbxassetid://128961717706452"
+    str6 = "rbxassetid://"
     local n28
     n28 = 0.5
     local n29
@@ -29372,9 +29372,9 @@ do
 
         local function fn33()
             local v35 = setclipboard or toclipboard
-            local ok = type(v35) == "function" and pcall(v35, "https://discord.gg/CJK4bs2mgT")
+            local ok = type(v35) == "function" and pcall(v35, "SOON")
                 or false
-            fn32(ok and "Discord Link Copied" or "Discord Link", "https://discord.gg/CJK4bs2mgT")
+            fn32(ok and "Discord Link Copied" or "Discord Link", "SOON")
             if not tbl33.Copy then
                 return
             end
@@ -29632,7 +29632,7 @@ do
                 end)
             end
         else
-            v31:CreateText({ Name = "Discord", Text = "https://discord.gg/CJK4bs2mgT" })
+            v31:CreateText({ Name = "Discord", Text = "SOON" })
         end
 
         if type(v31.CreateButton) == "function" then
