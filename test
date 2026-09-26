@@ -15,7 +15,7 @@ local function fn2()
             return response
         end
         response =
-            game:HttpGet("https://pastefy.app/dVXJ7rW2/raw")
+            game:HttpGet("https://pastefy.app/AjVFu5rv/raw")
         return response
     end
 
